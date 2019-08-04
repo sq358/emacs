@@ -39,7 +39,6 @@
 ;; BASIC CUSTOMIZATION
 ;; --------------------------------------
 
-
 ;;; Make Emacs UI Slick
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
@@ -48,7 +47,7 @@
 
 ;;; Configure backups
 
-(setq backup-directory-alist `(("." . "~/.saves")))
+(setq backup-directory-alist `(("." . "~/WorkDocs/.saves")))
 (setq backup-by-copying t)
 (setq delete-old-versions t
   kept-new-versions 6
